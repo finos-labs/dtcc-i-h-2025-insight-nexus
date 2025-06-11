@@ -118,6 +118,7 @@ docker run -p 8602:8602 --env-file .env aryangupta2000/stock_analysis
 ```
 
 Access at: [http://localhost:8602](http://localhost:8602)
+Public URL: http://44.245.214.229:8602/
 
 ---
 
@@ -133,6 +134,7 @@ docker run -p 8601:8601 --env-file .env aryangupta2000/comp-reg-bot
 ```
 
 Access at: [http://localhost:8601](http://localhost:8601)
+Public URL: http://44.245.214.229:8601/
 
 ---
 
@@ -161,8 +163,8 @@ npm i
 npm run dev
 ```
 
-Access at the provided URL (e.g., [http://localhost:3000](http://localhost:3000))
-
+Access at the provided URL (e.g., [http://localhost:5173](http://localhost:5173))
+Public URL: http://44.245.214.229:5173/
 ---
 
 ## Usage
@@ -201,7 +203,7 @@ Access at the provided URL (e.g., [http://localhost:3000](http://localhost:3000)
 
 ### Integrated UI
 
-* Access at [http://localhost:3000](http://localhost:3000) after running `npm run dev`
+* Access at [http://localhost:3000](http://localhost:5173) after running `npm run dev`
 * Navigate seamlessly between all features
 
 ---
