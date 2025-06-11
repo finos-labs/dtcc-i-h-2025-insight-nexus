@@ -1,0 +1,132 @@
+{
+  "tables": {
+    "prices": {
+      "columns": [
+        "symbol",
+        "date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "categorical_values": {
+        "symbol": [
+          "AAPL",
+          "AMZN",
+          "GOOGL",
+          "JPM",
+          "META",
+          "MSFT",
+          "NVDA",
+          "TSLA",
+          "V",
+          "WMT"
+        ]
+      }
+    },
+    "indicators": {
+      "columns": [
+        "symbol",
+        "date",
+        "sma_20",
+        "sma_50",
+        "sma_200",
+        "ema_12",
+        "ema_26",
+        "rsi_14",
+        "macd",
+        "macd_signal",
+        "macd_hist",
+        "bb_upper",
+        "bb_middle",
+        "bb_lower",
+        "adx_14",
+        "cci_20",
+        "stochastic_k",
+        "stochastic_d",
+        "williams_r"
+      ],
+      "categorical_values": {
+        "symbol": [
+          "AAPL",
+          "AMZN",
+          "GOOGL",
+          "JPM",
+          "META",
+          "MSFT",
+          "NVDA",
+          "TSLA",
+          "V",
+          "WMT"
+        ]
+      }
+    },
+    "financials": {
+      "columns": [
+        "symbol",
+        "date",
+        "total_assets",
+        "total_liabilities",
+        "total_equity",
+        "cash_and_equivalents",
+        "current_assets",
+        "current_liabilities",
+        "long_term_debt",
+        "net_income",
+        "revenue",
+        "gross_profit",
+        "operating_income",
+        "ebitda",
+        "eps",
+        "free_cash_flow",
+        "current_ratio",
+        "debt_to_equity",
+        "roa",
+        "roe"
+      ],
+      "categorical_values": {
+        "symbol": [
+          "AAPL",
+          "AMZN",
+          "GOOGL",
+          "JPM",
+          "META",
+          "MSFT",
+          "NVDA",
+          "TSLA",
+          "V",
+          "WMT"
+        ]
+      }
+    },
+    "corporate_actions": {
+      "columns": [
+        "symbol",
+        "action_type",
+        "action_date",
+        "details"
+      ],
+      "categorical_values": {
+        "symbol": [
+          "AAPL",
+          "MSFT",
+          "GOOGL",
+          "AMZN",
+          "TSLA",
+          "NVDA",
+          "META",
+          "JPM",
+          "V",
+          "WMT"
+        ],
+        "action_type": [
+          "dividend",
+          "stock_split"
+        ]
+      }
+    }
+  },
+  "date_format": "YYYY-MM-DD",
+  "current_date": "2025-06-09 22:18:25 "
+}

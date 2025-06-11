@@ -1,0 +1,10 @@
+streamlit
+PyMuPDF
+PyPDF2
+pypdf
+boto3
+python-dotenv
+langchain
+langchain-community
+faiss-cpu
+awscli

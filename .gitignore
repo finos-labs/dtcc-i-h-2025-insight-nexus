@@ -8,6 +8,15 @@
 # macOS-specific
 .DS_Store
 
+# Node modules
+node_modules/
+assets/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
 # Build directories
 dist
 site
