@@ -206,6 +206,11 @@ Public URL: http://44.245.214.229:5173/
 * Access at [http://localhost:3000](http://localhost:5173) after running `npm run dev`
 * Navigate seamlessly between all features
 
+
+![image](https://github.com/user-attachments/assets/56db0478-1896-467b-9093-e5c6f1286d76)
+
+
+
 ---
 
 ## Project Structure
