@@ -16,9 +16,19 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    body {
-        background-color: #0E1117;
-        color: #FAFAFA;
+    .stApp {
+        background: 
+            linear-gradient(to bottom right, #0a101b, #020510),
+            radial-gradient(at top left, #0a101b, transparent 70%),
+            radial-gradient(at top right, #050b14, transparent 70%),
+            radial-gradient(at bottom left, #050b14, transparent 70%),
+            radial-gradient(at bottom right, #020510, transparent 70%);
+        background-blend-mode: screen;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
     }
     .stButton>button {
         background-color: rgb(25 51 83 / 30%);
